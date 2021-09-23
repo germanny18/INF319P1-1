@@ -1,0 +1,13 @@
+open System
+
+[<EntryPoint>]
+let main argv =
+
+    let a = 4
+    let b = 5
+    let mutable suma = 0
+    for i in 1..b do
+       suma <- suma + a
+    printfn "%i" suma
+ 
+    0 

@@ -1,0 +1,16 @@
+[<EntryPoint>]
+let main argv =
+
+    let par n = n%2 = 0 
+    let impar n = n%2 <> 0
+
+    let lista = [1..10]
+    let LisPar = List.filter par lista
+    let LisImp = List.filter impar lista
+    for i in LisPar do
+       printf "%i " i
+    printf "\n"
+    for i in LisImp do
+        printf "%i " i
+
+    0 

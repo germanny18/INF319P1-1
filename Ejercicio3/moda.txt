@@ -1,0 +1,4 @@
+> library(modeest)
+> v = c(2,3,4,4,3,4,1)
+> mfv(v)
+[1] 4
